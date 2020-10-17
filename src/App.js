@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Profile from "./Profile";
+import HookCounter from "./HookCounter";
 
 function App() {
   return (
     <div className="App">
-      <Profile username="mechaniccoder" name="유승환" />
+      <HookCounter />
     </div>
   );
 }
